@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+    font-family: arial, sans-serif;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    width: 100%;
+    height: 100vh;
+}
+#outerbox{
+    background-color: #ffff;
+}
+#fb2{
+    
+    width: 550px;
+    font-weight: 500;
+    margin-right: 50px;
+}
+h1{
+    margin-top: 190px;
+    font-size: 64px;
+    color: rgb(5, 97, 234);
+    font-weight: bolder;
+}
+.para{
+    font-size: 30px;
+}
+#fullbox{
+    border: 1px solid transparent;
+    box-shadow: 0 2px 4px rgb(84, 82, 82,.4);
+    border-radius: 10px;
+    margin-top: 140px;
+    margin-bottom: 280px;
+    display: flex;
+    background-color: #ffff;
+}
+#username:active{
+    border-color: #0866ff ;
+}
+#username{
+    text-align: start;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: .9px;
+    border: 0.5px solid rgb(215, 210, 210);
+    height: 53px;
+    width: 370px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 13px;
+    margin-right: 10px;
+}
+
+#password{
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: .9px;
+    border: 0.5px solid rgb(215, 210, 210);
+    height: 53px;
+    width: 370px;
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 13px;  
+    margin-right: 10px;  
+}
+#lgnbtn{
+    background-color: #0866ff;
+    width: 370px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 8px;
+    color: white;
+    border-color: transparent;
+    margin-bottom: 13px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+#lgnbtn:hover{
+    background-color: #2377ff;
+}
+#fp{
+    text-decoration: none;
+    color: #0866ff;
+    margin-left: 92px;
+    font-size: 14px;
+}
+#fp:hover{
+    text-decoration: underline;
+}
+#fpcontainer{
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+#hr{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#createbtn{
+    font-size: 14.5px;
+    font-weight: 200;
+    letter-spacing: .9px;
+    color: white;
+    background-color: #42b72a;
+    width: 190px;
+    height: 48px;
+    border-radius: 7px;
+    border-color: transparent;
+    font-weight: 650;
+}
+#createbtn:hover{
+    background-color: #42a82e;
+}
+#createcontainer{
+    margin-left: 100px;
+    margin-top: 20px;;
+}
+#lastcontainer{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+}
+#last{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #1c1e21;
+    letter-spacing: .1px;
+}
+#last:hover{
+    text-decoration: underline;
+}
